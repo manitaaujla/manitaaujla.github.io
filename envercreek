@@ -2,7 +2,6 @@
 <html>
 <head>
 <title>Enver Creek</title>
-<body>
 <style>
 H1 {
   color: white;
@@ -13,20 +12,52 @@ body {
   background-color: black;
    text-align: center;
 }
+.table {
+  border: 1px solid white;
+}
+tr {
+  border-bottom: 1px solid white;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+  border: 1px solid white;
+}
 </style>
+<body>
 <h1>
 Enver Creek
 </h1>
-
 
 </p>
 <img src="https://www.surreyschools.ca/schools/envercreek/About/Administration/Documents/COUGARS%20LOGO.jpg" alt= "Enver Creek school"/>
 
 <p>
-Enver Creek's website
+
 </p>
-
-
+<div class="table">
+<table>
+  <tr>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>1234</td>
+    <td>3412</td>
+    <td>2143</td>
+    <td>4321</td>
+    <td>(rotates every week)</td>
+  </tr>
+</table>
+</div>
 
 
 </body>
